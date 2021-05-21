@@ -1,0 +1,314 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat/Montserrat-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "MontserratReg";
+  src: url("assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("assets/fonts/Lora/static/Lora-Regular.ttf");
+  font-weight: 400;
+}
+/*================================HEADER===================================*/
+.IsraelLogo{
+  float: left;
+  display: flex;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+.IsraelLogo h1{
+  padding-top: 6px;
+}
+.SearchLogo{
+  position: relative;
+  left: 430px;
+  top: 6px;
+  display: block;
+  float: right;
+}
+.SearchLogo input{
+  height: 35px;
+  width: 235px;
+  padding: inherit;
+  font-size: 20px;
+  font-family: "Lora";
+  color: black;
+  border-radius: 3px;
+  border-width: thin;
+}
+.SearchLogo button{
+  position: relative;
+  top: -3px;
+  height: 38px;
+  width: 75px;
+  font-family: "Montserrat";
+  border-radius: 4px;
+  background-color: #246dff; /*#6baefa*/
+  color: White;
+  border-width: thin;
+  transition: linear 0.2s;
+}
+.SearchLogo button:hover{
+  background: #6baefa; /*#248aff*/
+}
+
+.NavMenu1{
+  list-style-type: none;
+}
+.NavMenu1 li {
+  display: inline;
+}
+ul{
+  position: relative;
+  left: 20px;
+  padding: 50px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family:Montserrat;
+  transition: 0.3s linear;
+  margin:45px;
+}
+a:hover{
+  color: #75a8ff;
+}
+
+.TA1{
+   clip-path: ellipse(100% 60% at 50% 37%);
+   animation-name: Appearance;
+   animation-duration: 1.2s;
+   animation-timing-function: cubic-bezier(.1 ,-.6,.2,0);
+}
+@-webkit-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes Appearance {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.FooterUp h1{
+  position: absolute;
+  z-index: 2;
+  font-family: "Lora";
+  color: white;
+  left: 250px;
+  top: 250px;
+  font-size: 45px;
+  animation-name: AppearanceText;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.2 ,-.6,.2,0);
+  transition: linear 0.3s;
+}
+.TitleText:hover {
+  font-size: 50px;
+}
+@-webkit-keyframes AppearanceText {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-o-keyframes AppearanceText {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@-moz-keyframes AppearanceText {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes AppearanceText {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+/*================================CONTENT===================================*/
+.TitleText1{
+  position: relative;
+  z-index: 2;
+  font-family: "Lora";
+  color: black;
+  left: 30px;
+  top: 90px;
+  font-size: 40px;
+  animation-name: AppearanceText;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.2 ,-.6,.2,0);
+}
+
+.MdImg{
+  position: relative;
+  top: -150px;
+  z-index: 1;
+  left: 520px;
+}
+
+.PInfo{
+  position: relative;
+  top: 120px;
+  left: 35px;
+  font-family: "MontserratReg";
+}
+
+/*================================FOOTER===================================*/
+
+footer{
+  background:#246eff;
+  }
+
+.FooterNav{
+  margin-left: -10px;
+  text-align: left;
+  font-family: "MontserratReg";
+}
+.FooterBtn{
+  color: white;
+}
+.social-icons ul{
+  list-style: none;
+  justify-content: center;
+}
+.Social{
+  display: flex;
+}
+.social-icons ul li a span {
+  color: #000;
+  width: 34px;
+  background: #fff;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin: 0px 2px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 0px 2px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  -moz-transition: 0.5s all;
+}
+.social-icons ul li a span:hover{
+  color:#0ccbf1;
+}
+.FooterBanner p{
+  margin-left: 430px;
+  font-size:20px;
+  color:#fff;
+}
+.social-icons ul li:nth-child(2){
+  margin: 0 10px;
+}
+/*================================NEWSPAGE===================================*/
+.NewsTextInfo{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  left: 30px;
+  top: 800px;
+  font-size: 36px;
+  font-family: "Lora";
+}
+.NewsTitle{
+  font-family: "Lora";
+}
+
+.NewsText{
+  font-family: "MontserratReg";
+}
+/*================================PLACESPAGE===================================*/
+.PlacesTitle{
+  text-align: center;
+  font-family: "Lora";
+  font-size: 27px;
+}
+
+.PlacesTitle1{
+  text-align: center;
+  font-family: "Lora";
+}
+/*
+.PlacesImg{
+  text-align: center;
+}
+*/
+/*================================HISTORYPAGE===================================*/
+.HistoryTitle{
+  font-family: "Lora";
+  font-size: 25px;
+}
+
+.HistoryTitle1{
+  font-family: "MontserratReg";
+}
+/*================================INFORMATIONPAGE===================================*/
+.TitleTextInfo{
+  position: absolute;
+  z-index: 2;
+  color: white;
+  left: 180px;
+  top: 550px;
+  font-size: 33px;
+  font-family: "Lora";
+}
+.ULInfo{
+  margin-left: 50px;
+  text-align: left;
+  font-family: "MontserratReg";
+}
+.ULInfoTitle{
+  font-family: "Montserrat";
+  position: relative;
+  top: 21px;
+  left: 35px;
+}
+.ULInfo1{
+  margin-left: 30px;
+  text-align: left;
+  list-style-type: none;
+  font-family: "MontserratReg";
+}
+.InfoBanner{
+  position: absolute;
+  z-index: 1;
+  top: 1000px;
+  left: 840px;
+}
+.InfoTitle{
+  font-family: "Lora";
+}
+.InfoNumber{
+  font-family: "MontserratReg";
+}
+.InfoText{
+  font-family: "MontserratReg";
+}
+.rectangle {
+  position: absolute;
+  z-index: 0;
+  top: 1000px;
+  left: 800px;
+  height: 300px;
+  width: 470px;
+
+  background-color: #037ffc;
+}
